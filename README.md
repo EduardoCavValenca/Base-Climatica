@@ -14,7 +14,7 @@ O comando ```pprint``` foi utilizado para apresentar os dados no console de form
 
 ## PiCamera
 
-Inicialmente, inicializamos um objeto do tipo ```PiCamera``` e atribuímos a ```camera```. Isso nos da acesso aos seguintes métodos utilizados:
+Inicialmente, inicializamos um objeto do tipo ```PiCamera``` e atribuímos a ```camera```. Isso nos dá acesso aos seguintes métodos utilizados:
 
 - ```start_preview()``` - Comando que mostra a visão da camera em tempo real.
 - ```annotate_text ()``` - Comando que permite a adição de texto a imagem da câmera.
@@ -23,11 +23,11 @@ Inicialmente, inicializamos um objeto do tipo ```PiCamera``` e atribuímos a ```
 - ```stop_recording()``` - Comando que encerra a gravação do vídeo.
 - ```stop_preview()``` - Comando que encerra a visualização da visão da câmera.
 
-Desse modo o utilizamos o método ```annotate_text ()``` para salvar alguns dados meteriológicos da imagem da câmera, como:
+Desse modo o utilizamos o método ```annotate_text ()``` para salvar alguns dados na imagem da câmera, como:
 
 - Número USP dos alunos
 - Local
-- Humidade
+- Umidade
 - Velocidade do Vento
 
 Por fim foi retirada uma foto por meio do comando ```capture()``` e gravado um curto vídeo de 5 segundos utilizando ```start_recording()```, ```sleep(5)```, ```stop_recording()```.
